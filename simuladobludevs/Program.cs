@@ -136,7 +136,7 @@ Console.ReadKey();
                         arrayN[i]= arrayN[contN];    
                         arrayN[contN] = temp;
                         check ++;
-                        Console.WriteLine("teste");
+                        //Console.WriteLine("teste");
                         }
                         contN++;
                         
