@@ -1,0 +1,8 @@
+C:\Users\gpalmarante\Source\Repos\gpalmarante\simuladoDevs\simuladobludevs\bin\Debug\simuladobludevs.exe.config
+C:\Users\gpalmarante\Source\Repos\gpalmarante\simuladoDevs\simuladobludevs\bin\Debug\simuladobludevs.exe
+C:\Users\gpalmarante\Source\Repos\gpalmarante\simuladoDevs\simuladobludevs\bin\Debug\simuladobludevs.pdb
+C:\Users\gpalmarante\Source\Repos\gpalmarante\simuladoDevs\simuladobludevs\obj\Debug\simuladobludevs.csproj.AssemblyReference.cache
+C:\Users\gpalmarante\Source\Repos\gpalmarante\simuladoDevs\simuladobludevs\obj\Debug\simuladobludevs.csproj.SuggestedBindingRedirects.cache
+C:\Users\gpalmarante\Source\Repos\gpalmarante\simuladoDevs\simuladobludevs\obj\Debug\simuladobludevs.csproj.CoreCompileInputs.cache
+C:\Users\gpalmarante\Source\Repos\gpalmarante\simuladoDevs\simuladobludevs\obj\Debug\simuladobludevs.exe
+C:\Users\gpalmarante\Source\Repos\gpalmarante\simuladoDevs\simuladobludevs\obj\Debug\simuladobludevs.pdb
