@@ -38,7 +38,7 @@ namespace simuladobludevs
                    Prog02();
                     break;
                     case "3":
-                  //  Prog03();
+                   Prog03();
                     break;
                     default:
                     break;
@@ -105,6 +105,62 @@ namespace simuladobludevs
 
 Console.ReadKey();
         }
+        static void Prog03()
+        {
+            Console.WriteLine(" programa 03 ordernar uma lista ");
+            Console.WriteLine("digite uma lista de numeros");
+            Console.WriteLine("digite s para organizar a lista");
+       
+            List<int> listn1 = new List<int>();
+            while (true)
+            {Console.WriteLine("digite proximo numero");
+                string opN = Console.ReadLine();
+                if(opN == "s") { break;}
+                int n1= int.Parse(opN);
+                
+                listn1.Add(n1);
+
+
+            }
+            int[] arrayN= listn1.ToArray();
+            Console.WriteLine("organizando a lista!");
+            
+            while (true)
+            {   int check = 0;
+                int contN = 1;
+                for (int i = 0; i < arrayN.Length; i++)
+			        {   
+                        if((contN != arrayN.Length)&&(arrayN[i] > arrayN[contN]) )
+                        {
+                        int temp = arrayN[i];
+                        arrayN[i]= arrayN[contN];    
+                        arrayN[contN] = temp;
+                        check ++;
+                        Console.WriteLine("teste");
+                        }
+                        contN++;
+                        
+                    }
+                    
+			        
+                if(check == 0) { break;}
+			}
+                string listFinal = " ordenado a lista = ";
+
+                for (int i = 0; i < arrayN.Length; i++)
+                {
+                    listFinal = listFinal +"-"+arrayN[i];
+
+			}
+                Console.WriteLine(listFinal);
+                Console.ReadKey();
+
+            }
+
+
+
+
+        }
 
 	}
 
@@ -115,5 +171,5 @@ Console.ReadKey();
 
 
 
-        }
+        
 
