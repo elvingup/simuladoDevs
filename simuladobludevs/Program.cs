@@ -35,7 +35,7 @@ namespace simuladobludevs
                     Prog01();
                     break;
                     case "2":
-                  //  Prog02();
+                   Prog02();
                     break;
                     case "3":
                   //  Prog03();
@@ -89,10 +89,21 @@ namespace simuladobludevs
             Console.ReadKey();
 	}
         static void Prog02()
-        {
+        {Console.WriteLine("descubra se palindromo");
+            Console.WriteLine(" digite uma palavra ou frase");
+            List<char> palavra = new List<char>(Console.ReadLine().ToCharArray().ToList());
+            List<char> palavra2 = new List<char>(palavra);
+            palavra2.Reverse();
+            int cont =0;
+            for (int i = 0; i < palavra.Count; i++)
+            {
+                if (palavra[i]== palavra2[i]) { cont++;}
+                //Console.WriteLine(cont);
+			}
+            if (cont == palavra.Count()) {Console.WriteLine($"A string {new string(palavra.ToArray())} é um palíndromo"); } 
+            else { Console.WriteLine($"A string {new string(palavra.ToArray())} não é um palíndromo");};
 
-
-
+Console.ReadKey();
         }
 
 	}
